@@ -21,7 +21,7 @@ export const LoadingButton = ({ text, loadingText, colorScheme = 'teal', variant
     }
     return (
         <Button
-            isLoading={show}
+            // isLoading={show}
             loadingText={loadingText}
             colorScheme={colorScheme}
             variant={variant}
